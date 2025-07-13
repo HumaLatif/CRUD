@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Crud oeration</title>
+  </head>
+  <body>
+    <div class="conatiner">
+      <h1 style="margin-top: 55px; text-align: center;">Student Management System</h1>
+
+      <button type="submit" id="addstu">Add Student</button>
+
+      <div class="formContent">
+        <form class="studentForm" >
+          <label for="Name">Name:</label>
+          <input type="text" id="name" />
+
+          <label for="Name">Age:</label>
+          <input type="text" id="age" />
+
+          <label for="Name">Class:</label>
+          <input type="text" id="class" />
+
+          <label for="Name">Grade:</label>
+          <input type="text" id="grade" />
+
+          <button type="submit">Submit</button>
+          <button type="submit">Cancel</button>
+        </form>
+      </div>
+
+
+
+      <table class="studentTable">
+        <tr>
+          <th>Sr#</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Actions</th>
+        </tr>
+      </table>  
+    </div>
+
+
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>
